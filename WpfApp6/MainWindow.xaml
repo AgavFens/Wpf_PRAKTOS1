@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="q1" Content="" HorizontalAlignment="Left" Margin="279,128,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q2" Content="" HorizontalAlignment="Left" Margin="344,128,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q3" Content="" HorizontalAlignment="Left" Margin="409,128,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q4" Content="" HorizontalAlignment="Left" Margin="279,183,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q5" Content="" HorizontalAlignment="Left" Margin="344,183,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q6" Content="" HorizontalAlignment="Left" Margin="409,183,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q7" Content="" HorizontalAlignment="Left" Margin="279,238,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q8" Content="" HorizontalAlignment="Left" Margin="344,238,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+        <Button x:Name="q9" Content="" HorizontalAlignment="Left" Margin="409,238,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="ButtonClick" IsEnabled="False"/>
+
+        <Button x:Name="start" Content="Играть" HorizontalAlignment="Left" Margin="344,70,0,0" VerticalAlignment="Top" Height="38" Width="60" Click="start_Click"/>
+        <Button x:Name="new_game" Content="новая игра" HorizontalAlignment="Left" Margin="344,310,0,0" VerticalAlignment="Top" Height="22" Width="84" Click="new_game_Click"/>
+
+
+    </Grid>
+</Window>
